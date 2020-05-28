@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  max-width: 1500px;
+  height: 100%;
+  background-image: url("/assets/images/Pac\ Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.intro-section {
+  padding: 4em;
+  background: linear-gradient( rgba(0, 0, 0, .4), rgba(251, 29, 29), rgba(0, 0, 0, .4));
+  border-radius: 12px;
+}
+
+.self-pic{
+  height: 30%;
+  border-radius: 50%;
+}
+
+.about-section {
+  padding: 4em;
+  background: linear-gradient(  rgba(0, 0, 0, .4), rgb(81, 251, 29),  rgba(0, 0, 0, .4));
+  border-radius: 12px;
+}
