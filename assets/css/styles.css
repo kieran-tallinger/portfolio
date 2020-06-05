@@ -40,7 +40,17 @@ main {
 
 .projects-section {
   background: cornsilk;
-  margin: 0 auto 2em;
+  margin: 0 auto 3em;
+}
+
+.skills-section {
+  background: rgb(253, 230, 219);
+  margin: 0 auto 3em;
+}
+
+.tools-section {
+  background: cornsilk;
+  margin: 0 auto 3em;
 }
 
 .card {
