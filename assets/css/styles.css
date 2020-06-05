@@ -21,6 +21,7 @@ main {
 
 .intro-section {
   padding: 4em;
+  background: cornsilk;
 }
 
 .self-pic{
@@ -30,8 +31,13 @@ main {
 
 .about-section {
   padding: 4em;
+  background: rgb(253, 230, 219);
 }
 
 .about-section div {
   margin: 0 1em;
+}
+
+.projects-section {
+  background: cornsilk;
 }
