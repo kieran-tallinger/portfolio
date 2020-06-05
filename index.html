@@ -6,111 +6,173 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kieran Tallinger's Portfolio</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,500;1,400;1,500&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div>
-        <h3>Kieran Tallinger</h3>
+    <header class="container mb-5">
+      <nav class="navbar fixed-top bg-light">
+        <h3 class="navbar-brand">Kieran Tallinger</h3>
         <div>
-          <i>badges</i>
-          <i></i>
-          <i></i>
-          <i></i>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
     </header>
-    <main>
-      <section>
-        <h1>Intro</h1>
-        <div>
+    <main class="container">
+      <section class="row text-center intro-section">
+        <h1 class="col-12">Intro</h1>
+        <div class="col-12">
           <p>intro dets</p>
         </div>
       </section>
-      <section>
-        <div>
-          <img src="" alt="Picture of Kieran Tallinger">
+      <section class="row justify-content-center text-center about-section">
+        <div class="col-6 mb-4">
+          <img class="self-pic"src="/assets/images/selfpic.jpg" alt="Picture of Kieran Tallinger">
         </div>
-        <div>
+        <div class="col-6">
           <h2>About</h2>
-          <p>Stuff bout me</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Rerum nemo mollitia id eaque eligendi, illum doloremque adipisci
+             et suscipit obcaecati, hic ad perferendis aut tempora, modi
+             deserunt laborum reprehenderit voluptatem!
+             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Autem tempora suscipit magnam cupiditate iste incidunt
+             voluptates quae praesentium consequuntur quaerat necessitatibus
+             nam eveniet aperiam officia totam quam numquam, ea tempore!</p>
         </div>
       </section>
-      <section>
-        <h2>Projects</h2>
-        <div>
-          <div>
+      <section class="container row justify-content-center text-center projects-section">
+        <h2 class="col-12 mb-4">Projects</h2>
+        <div class="row justify-content-center col-12 mb-3">
+          <div class="col-5">
             <h3>Memory Match</h3>
-            <p>Stuff bout memory match</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Nisi, id! Commodi amet velit enim qui voluptatibus alias?
+               Autem, iste velit obcaecati asperiores labore, quasi possimus
+               unde, quaerat quas accusamus dolores!</p>
           </div>
-          <img src="" alt="Screenshot of Memory Match Game">
+          <img class="col-5" src="./assets/images/memory-match-screenshot.jpg" alt="Screenshot of Memory Match Game">
         </div>
-        <div>
-          <div>
-            <h3>Memory Match</h3>
-            <p>Stuff bout memory match</p>
-          </div>
-          <img src="" alt="Screenshot of Memory Match Game">
-        </div>
-        <div>
-          <div>
+        <div class="row justify-content-center col-12 mb-3">
+          <img class="col-5" src="./assets/images/my-workouts-screenshot.jpg" alt="Screenshot of My Personal Workouts App">
+          <div class="col-5">
             <h3>My Personal Workouts</h3>
-            <p>Stuff bout my Workouts</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Nisi, id! Commodi amet velit enim qui voluptatibus alias?
+               Autem, iste velit obcaecati asperiores labore, quasi possimus
+               unde, quaerat quas accusamus dolores!</p>
           </div>
-          <img src="" alt="Screenshot of My Personal Workouts App">
         </div>
-        <div>
-          <div>
+        <div class="row justify-content-center col-12 mb-3">
+          <div class="col-5">
             <h3>Art Spread</h3>
-            <p>Stuff bout art spread</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Nisi, id! Commodi amet velit enim qui voluptatibus alias?
+               Autem, iste velit obcaecati asperiores labore, quasi possimus
+               unde, quaerat quas accusamus dolores!</p>
           </div>
-          <img src="" alt="Screenshot of Art Spread App">
+          <img class="col-5" src="./assets/images/art-spread-screenshot.jpg" alt="Screenshot of Art Spread App">
         </div>
       </section>
-      <section>
-        <h2>Technical Skills</h2>
-        <div>
-          <div>
-            <img src="" alt="sample skill card image">
-            <h4>sample skill card tag</h4>
+      <section class="row justify-content-center text-center skills-section">
+        <h2 class="col-12 mb-4">Technical Skills</h2>
+        <div class="row col-12 justify-content-center">
+          <div class="col-3 card mr-2">
+            <img class="card-image-top" src="./assets/images/html-logo.png" alt="sample skill card image">
+            <div class="card-body">
+              <h4 class="card-title">HTML5</h4>
+            </div>
           </div>
-          <div>
-            <img src="" alt="sample skill card image">
-            <h4>sample skill card tag</h4>
+          <div class="col-3 card mx-2">
+            <img class="card-image-top" src="./assets/images/css-logo.png" alt="sample skill card image">
+            <div class="card-body">
+              <h4 class="card-title">CSS3</h4>
+            </div>
+          </div>
+          <div class="col-3 card mx-2">
+            <img class="card-image-top" src="./assets/images/js-logo.png" alt="sample skill card image">
+            <div class="card-body">
+              <h4 class="card-title">JS</h4>
+            </div>
+          </div>
+          <div class="col-3 card ml-2">
+            <img class="card-image-top" src="./assets/images/react-logo-resized.jpg" alt="sample skill card image">
+            <div class="card-body">
+              <h4 class="card-title">React.js</h4>
+            </div>
+          </div>
+      </section>
+      <section class="row justify-content-center text-center tools-section">
+        <h2 class="col-12 mb-4">Industry Tools</h2>
+        <div class="col-3 card mr-2">
+          <img class="card-image-top" src="./assets/images/html-logo.png" alt="sample skill card image">
+          <div class="card-body">
+            <h4 class="card-title">HTML5</h4>
+          </div>
+        </div>
+        <div class="col-3 card mx-2">
+          <img class="card-image-top" src="./assets/images/css-logo.png" alt="sample skill card image">
+          <div class="card-body">
+            <h4 class="card-title">CSS3</h4>
+          </div>
+        </div>
+        <div class="col-3 card mx-2">
+          <img class="card-image-top" src="./assets/images/js-logo.png" alt="sample skill card image">
+          <div class="card-body">
+            <h4 class="card-title">JS</h4>
+          </div>
+        </div>
+        <div class="col-3 card ml-2">
+          <img class="card-image-top" src="./assets/images/react-logo-resized.jpg" alt="sample skill card image">
+          <div class="card-body">
+            <h4 class="card-title">React.js</h4>
           </div>
         </div>
       </section>
-      <section>
-        <h2>Industry Tools</h2>
-        <div>
+      <section class="container row justify-content-center contact-section">
+        <div class="col-6">
+          <h3>contact</h3>
+          <form class="form" action="">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" class="form-control" type="text" placeholder="Enter Name">
+            </div>
+          </form>
+        </div>
+        <div class="col-6">
           <div>
-            <img src="" alt="sample tool card image">
-            <h4>sample tool card tag</h4>
+            contact direct
           </div>
           <div>
-            <img src="" alt="sample skill card image">
-            <h4>sample tool card tag</h4>
+            git and li
+          </div>
+          <div>
+            resume
           </div>
         </div>
       </section>
-      <section>
-      <div>
-        <h3>contact</h3>
-      </div>
-      <div>
-        <div>
-          contact direct
-        </div>
-        <div>
-          git and li
-        </div>
-        <div>
-          resume
-        </div>
-      </div>
-    </section>
     </main>
-    <footer>
-      copyright
+    <footer class="container">
+      <p class="row">copyright</p>
     </footer>
     <script src="/assets/js/main.js"></script>
   </body>
